@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Destine&display=swap');
+@import '../styles/font.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Destine';
+  src: url('/fonts/destine.woff2') format('woff2'),
+       url('/fonts/destine.woff') format('woff'),
+       url('/fonts/destine.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0020-007E;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+.font-destine {
+  font-family: 'Destine', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Destine', sans-serif;
+}

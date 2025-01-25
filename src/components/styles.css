@@ -1,0 +1,72 @@
+.goog-te-gadget-simple span:nth-child(2),
+.goog-te-gadget-simple span:nth-child(3) {
+    display: none !important;
+    color: yellow !important;
+}
+
+.goog-te-gadget-simple span a {
+    display: flex !important;
+    justify-content: center;
+    color: yellow !important;
+    align-items: center;
+    /* gap: 4px; */
+}
+
+.goog-te-gadget-simple {
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent !important;
+    border: none !important;
+    padding: 5px !important;
+    border-radius: 4px !important;
+    color: black !important;
+}
+
+.goog-te-gadget-icon {
+    display: none !important;
+    color: white;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none !important;
+    color: white;
+}
+/* styles.css */
+
+.bg-blue-500 {
+    background-color: #3b82f6; /* You can change this to your desired color */
+  }
+  
+
+
+
+
+.logo-wrapper {
+    background: none;
+    
+}
+
+
+.nav-link {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    bottom: 0;
+    height: 2px;
+    background-color: black;
+}
+
+.navbar-transparent {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+  }
